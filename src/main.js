@@ -22,7 +22,7 @@ fetch(API_URL)
 
       // Agora, crie um elemento "div" com a class "col-md-4" do Bootstrap.
       div = document.createElement("div");
-      div.className = "col-md-4";
+      div.classList.add("col-md-4");
 
       // Boa! Agora, precisamos criar a "div" do card a ser exibido. Ao criar, atribua a class "card mb-4 box-shadow".
       card = document.createElement("div");

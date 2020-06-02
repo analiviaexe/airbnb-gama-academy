@@ -3,6 +3,10 @@
   max-height: 150px;
 }
 
+.card:hover{
+  border: 1px solid #a52903;
+}
+
 .property-type {
   color: #a52903;
   font-weight: bold;
